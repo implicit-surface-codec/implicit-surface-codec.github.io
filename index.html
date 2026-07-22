@@ -104,6 +104,31 @@
 </section>
 
 
+<section class="hero teaser">
+  <div class="container is-max-widescreen">
+    <div class="hero-body">
+      <figure class="image">
+        <img src="static/images/teaser.png"
+             alt="Overview of the implicit-surface predictive codec: captured RGB-D, mesh and point cloud
+                  input is fused into a sparse TSDF volume, compressed with block-wise DCT transform coding
+                  and motion-predictive coding, then decoded back into meshes and point clouds. A bottom row
+                  compares reconstruction quality and bitrate against MPEG-GPCC, Draco, Tang et al. 2018,
+                  MPEG-VPCC and MPEG-VDMC.">
+      </figure>
+      <h2 class="subtitle has-text-centered">
+        <b>Overview of our implicit-surface predictive codec for captured dynamic geometry.</b>
+        Our method targets 3D data produced by 3D capture/reconstruction pipelines, including RGB-D
+        capture sources, captured meshes and point clouds. These inputs are represented as a sparse
+        TSDF volume, which serves as the coding domain. We compress the dynamic TSDF sequence using
+        block-wise transform coding and motion-predictive coding across frames to exploit spatial and
+        temporal redundancy. The decoder reconstructs the TSDF volume and extracts meshes and point
+        clouds through surface extraction algorithms.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
